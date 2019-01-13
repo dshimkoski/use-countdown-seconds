@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dshimkoski/use-countdown-seconds.svg?branch=master)](https://travis-ci.org/dshimkoski/use-countdown-seconds)
+
 # `@rehooks/use-countdown-seconds`
 
 > React hook for use-countdown-seconds.
