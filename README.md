@@ -30,7 +30,7 @@ function Component() {
     return (
       <div>
         not started
-        <button onClick={() => start(new Date())} />
+        <button onClick={() => start(new Date())}>Start</button>
       ])
     )
   }
@@ -38,7 +38,12 @@ function Component() {
   return (
     <div>
       started ({timeLeft})
-      {isWarning && <em>expiring soon</em>}
+      {isWarning && (
+        <div>
+          <em>expiring soon</em>
+          <button onClick={() => start(new Date())}>Restart</button>
+        </div>
+      )}
     </div>
   )
 }
